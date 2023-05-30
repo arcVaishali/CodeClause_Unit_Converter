@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Unit Converter</title>
+</head>
+
+<body>
+    <header class="heading">
+        <h1><a href="#">Unit Converter</a></h1>
+    </header>
+
+    <div class="row">
+        <div class="list">
+
+            <h3>Length</h3>
+            <div class="items">
+                <div class="from-class">
+                    <label for="from">From</label>
+                    <input type="number" name="" id="in_valL" onkeyup="calculLength()">
+                    <select name="" id="in_unitL">
+                        <option value="Kilometre">Kilometre</option>
+                        <option value="Metre">Metre</option>
+                        <option value="Centimetre">Centimetre</option>
+                    </select>
+                </div>
+
+                <div class="to-class">
+                    <label for="to">To</label>
+
+                    <input type="number" name="" id="out_valL">
+
+                    <select name="" id="out_unitL">
+                        <option value="Kilometre">Kilometre</option>
+                        <option value="Metre">Metre</option>
+                        <option value="Centimetre">Centimetre</option>
+                    </select>
+
+                </div>
+
+            </div>
+
+
+            <h3>Weight</h3>
+            <div class="items">
+                <div class="from-class">
+
+                    <label for="from">From</label>
+
+                    <input type="number" name="" id="in_valW" onkeyup="calculWeight()">
+                    
+                    <select name="" id="in_unitW">
+                        <option value="Kilogram">Kilogram</option>
+                        <option value="Gram">Gram</option>
+                        <option value="Milligram">Milligram</option>
+
+                    </select>
+                </div>
+
+                <div class="to-class">
+                    <label for="to">To</label>
+
+                    <input type="number" name="" id="out_valW">
+
+                    <select name="" id="out_unitW">
+                        <option value="Kilogram">Kilogram</option>
+                        <option value="Gram">Gram</option>
+                        <option value="Milligram">Milligram</option>
+                    </select>
+
+                </div>
+
+            </div>
+            <h3>Temperature</h3>
+            <div class="items">
+                <div class="from-class">
+                    <label for="from">From</label>
+
+                    <input type="number" name="" id="in_valT" onkeyup="calculTemperature()">
+
+                    <select name="" id="in_unitT">
+                        <option value="Fahrenhiet">Fahrenhiet</option>
+                        <option value="Celcius">Celcius</option>
+                        <option value="Kelvin">Kelvin</option>
+                    </select>
+
+                </div>
+
+                <div class="to-class">
+                    <label for="to">To</label>
+
+                    <input type="number" name="" id="out_valT">
+
+                    <select name="" id="out_unitT">
+                        <option value="Fahrenhiet">Fahrenhiet</option>
+                        <option value="Celcius">Celcius</option>
+                        <option value="Kelvin">Kelvin</option>
+                    </select>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <script src="scripts.js"></script>
+</body>
+
+
+</html>
